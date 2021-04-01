@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Офисы</title>
+        <link rel="stylesheet" href="/assets/style.css" />
+        <link rel="stylesheet" href="/assets/reset.css" />
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=5362e970-58d9-4193-932d-df5258426131" type="text/javascript"></script>
+        <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+      </head>
+      <body>
+        <header id="header">
+            <div class="container">
+              <nav class="navigator">
+                <ul class="menu">
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">ЕОСАГО</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">КАСКО</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">ВЗР</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">Ещё...</a>
+                  </li>
+                </ul>
+              </nav>
+              <a href="#" class="logo"
+                ><img src="/assets/img/polis.svg" alt="polis" />
+                <img src="/assets/img/plus.svg" alt="+" class="plus"
+              /></a>
+              <div class="wrapper-btn">
+                <a href="#" class="search-btn"
+                  ><img src="/assets/img/search.svg" alt="s"
+                /></a>
+                <div class="profile">
+                  <img src="/assets/img/profile.svg" alt="" />
+                  <a href="#" class="user-name">Иванов И.И.</a>
+                </div>
+              </div>
+            </div>
+          </header>
+          <section id="offices">
+            <div class="container">
+              <div class="title">
+                <h1 class="insurance-company">
+                  Страховая компания Тинькофф Страхование
+                </h1>
+                <a href="#" class="logotypes-tincoff"
+                  ><img src="/assets/img/logo-tincoff.svg" alt="tincoff"
+                /></a>
+              </div>
+              <div class="content">
+                <ul class="content-menu content-menu-link-active">
+                  <li class="content-menu-link">
+                    <a href="/index.html">О компании</a>
+                  </li>
+                  <li class="content-menu-link content-menu-link-active">
+                      <a href="/offices.html">Офисы</a>  
+                  </li>
+                  <li class="content-menu-link">
+                    <a href="/reviews.html">Отзывы</a>
+                  </li>
+                  <li class="content-menu-link">
+                    <a href="/contacts.html">Контакты</a>
+                  </li>
+                  <li class="content-menu-link">
+                    <a href="/ratings.html">Рейтинги</a>
+                  </li>
+                </ul>
+                <div id="map">
+                    <ul class="cities">
+                        <li>
+                            <button class = "city" id="moscow"><p>Москва</p></button>
+                        </li>
+                        <li>
+                            <button class = "city" id="petersburg"><p>
+                                Санкт-Петербург
+                            </p></button>
+                        </li>
+                        
+                        <li>
+                            <button class = "city" id="samara"><p>Самара</p></button>
+                        </li>
+                        <li>
+                            <button class = "city" id="Kazan"><p>Казань</p></button>
+                        </li>
+                        <li>
+                            <button class = "city" id="sochi"><p>Сочи</p></button>
+                        </li>
+                    </ul>
+                    <div id="map-frame"></div>
+                    <p id="office-counter"> найдено 137 офисов</p>
+                    <ul class="list-adresses">
+                        <li class="adress">
+                            <p class="city-adress">Москва</p>
+                            <p class="hous-adress">2-я Хуторская улица, 38Ас26</p>
+                            <a class="build-route-btn" href="#"><img src="/assets/img/offices/map_pointer.svg" alt="!">Построить маршрут</a>
+                        </li>
+                        <li class="adress">
+                            <p class="city-adress">Москва</p>
+                            <p class="hous-adress">2-я Хуторская улица, 38Ас26</p>
+                            <a class="build-route-btn" href="#"><img src="/assets/img/offices/map_pointer.svg" alt="!">Построить маршрут</a>
+                        </li>
+                        <li class="adress">
+                            <p class="city-adress">Москва</p>
+                            <p class="hous-adress">2-я Хуторская улица, 38Ас26</p>
+                            <a class="build-route-btn" href="#"><img src="/assets/img/offices/map_pointer.svg" alt="!">Построить маршрут</a>
+                        </li>
+                        <li class="adress">
+                            <p class="city-adress">Москва</p>
+                            <p class="hous-adress">2-я Хуторская улица, 38Ас26</p>
+                            <a class="build-route-btn" href="#"><img src="/assets/img/offices/map_pointer.svg" alt="!">Построить маршрут</a>
+                        </li>
+                        <li class="adress">
+                            <p class="city-adress">Москва</p>
+                            <p class="hous-adress">2-я Хуторская улица, 38Ас26</p>
+                            <a class="build-route-btn" href="#"><img src="/assets/img/offices/map_pointer.svg" alt="!">Построить маршрут</a>
+                        </li>
+                        <li class="adress">
+                            <p class="city-adress">Москва</p>
+                            <p class="hous-adress">2-я Хуторская улица, 38Ас26</p>
+                            <a class="build-route-btn" href="#"><img src="/assets/img/offices/map_pointer.svg" alt="!">Построить маршрут</a>
+                        </li>
+                    </ul>
+                    <button class="show-more-offices"><p>Показать все 137 офисов</p></button>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+          <footer id="footer">
+            <div class="container">
+              <div class="footer-content">
+                <a href="#" class="logo"
+                  ><img src="/assets/img/polis.svg" alt="polis" />
+                  <img src="/assets/img/plus.svg" alt="+" class="plus"
+                /></a>
+                <ul class="social">
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/facebook.svg" alt="f" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/twitter.svg" alt="t" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/telegram.svg" alt="f" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/vk.svg" alt="vk" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/instagram.svg" alt="i" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="copyraite">
+                <p>© polis.plus – страховой маркетплейс</p>
+                <div class="copyraite-wrapper">
+                  <a href="#">Политика обработки персональных данных</a>
+                  <a href="#">Пользовательское соглашение</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+      </body>
+      <script src="/assets/js/offices.js"></script>
+</html>

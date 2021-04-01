@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Отзывы</title>
+        <link rel="stylesheet" href="/assets/style.css" />
+        <link rel="stylesheet" href="/assets/reset.css" />
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=5362e970-58d9-4193-932d-df5258426131" type="text/javascript"></script>
+        <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+      </head>
+      <body>
+        <header id="header">
+            <div class="container">
+              <nav class="navigator">
+                <ul class="menu">
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">ЕОСАГО</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">КАСКО</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">ВЗР</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="menu-link">Ещё...</a>
+                  </li>
+                </ul>
+              </nav>
+              <a href="#" class="logo"
+                ><img src="/assets/img/polis.svg" alt="polis" />
+                <img src="/assets/img/plus.svg" alt="+" class="plus"
+              /></a>
+              <div class="wrapper-btn">
+                <a href="#" class="search-btn"
+                  ><img src="/assets/img/search.svg" alt="s"
+                /></a>
+                <div class="profile">
+                  <img src="/assets/img/profile.svg" alt="" />
+                  <a href="#" class="user-name">Иванов И.И.</a>
+                </div>
+              </div>
+            </div>
+          </header>
+          <section id="reviews">
+            <div class="container">
+                <div class="title">
+                    <h1 class="insurance-company">
+                        Страховая компания Тинькофф Страхование
+                    </h1>
+                    <a href="#" class="logotypes-tincoff"
+                        ><img src="/assets/img/logo-tincoff.svg" alt="tincoff"
+                    /></a>
+                </div>
+                <div class="content">
+                    <ul class="content-menu">
+                      <li class="content-menu-link">
+                          <a href="/index.html">О компании</a>
+                      </li>
+                      <li class="content-menu-link">
+                        <a href="/offices.html">Офисы</a>
+                      </li>
+                      <li class="content-menu-link content-menu-link-active">
+                        <a href="/reviews.html">Отзывы</a>
+                      </li>
+                      <li class="content-menu-link">
+                        <a href="/contacts.html">Контакты</a>
+                      </li>
+                      <li class="content-menu-link">
+                        <a href="/ratings.html">Рейтинги</a>
+                      </li>
+                    </ul>
+                    <div class="rating-wrapper">
+                        <div class="rating">
+                            <div class="rating-of-5-circle">
+                                <p class="appraisal">4,5</p> <p class="appraisal-of">из 5</p>
+                            </div>
+                            <ul class="rating-with-count">
+                                <li class="rating-element">
+                                    <div class="stars-wrapper">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-bar-loaded progress-bar-loaded1"></div>
+                                    </div>
+                                      <p class="counter">74</p>
+                                </li>
+                                <li class="rating-element">
+                                    <div class="stars-wrapper">
+                                        <img class="star"  src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-bar-loaded progress-bar-loaded2"></div>
+                                    </div>
+                                      <p class="counter">45</p>
+                                </li>
+                                <li class="rating-element">
+                                    <div class="stars-wrapper">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-bar-loaded progress-bar-loaded3"></div>
+                                    </div>
+                                      <p class="counter">21</p>
+                                </li>
+                                <li class="rating-element">
+                                    <div class="stars-wrapper">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        <img class="star" src="/assets/img/rating-star.svg" alt="*">
+                                        
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-bar-loaded progress-bar-loaded4"></div>
+                                    </div>
+                                      <p class="counter">0</p>
+                                </li>
+                                <li class="rating-element">
+                                    <div class="stars-wrapper">
+                                        <img class="star"  src="/assets/img/rating-star.svg" alt="*">
+                
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-bar-loaded progress-bar-loaded5"></div>
+                                    </div>
+                                      <p class="counter">2</p>
+                                </li>
+                                <li class="all-reviews">
+                                    <p class="all-reviews-text">Всего отзывов</p>
+                                    <p class="counter">142</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="left-reviews-card">
+                            <p class="left-reviews-title">Оставьте отзыв</p>
+                            <p class="left-reviews-disc">Расскажите о своем опыте использования страховых услуг</p>
+                            <button class="left-reviews-btn"><p>
+                              Написать отзыв
+                            </p></button>
+                        </div>
+                    </div>
+                    <div class="reviews-wrapper">
+                      <ul class="rewievs-filter">
+                        <li class="reviews-filter-btn">
+                          <div class="dropdown">
+                            <button class="dropdown-btn">
+                              <p>Все услуги</p>
+                            <img src="/assets/img/offices/drop-down.svg" alt="">
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="reviews-filter-btn">
+                          <div class="dropdown">
+                            <button class="dropdown-btn">
+                              <p>Все оценки</p>
+                            <img src="/assets/img/offices/drop-down.svg" alt="">
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="reviews-filter-btn">
+                          <div class="dropdown">
+                            <button class="dropdown-btn">
+                              <p>Сортировка: сначала новые</p>
+                            <img src="/assets/img/offices/drop-down.svg" alt="">
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="reviews-content-wrapper">
+                        <div class="kek-wrapper">
+                          <div class="reviews-content-card">
+                            <div class="reviews-header-wrapper">
+                              <div class="reviews-header-logo">
+                                <img src="/assets/img/offices/tinkek.svg" alt="tinkoff">
+                                
+                              </div>
+                              <div class="reviews-raiting"><img class="reviews-star" src="/assets/img/offices/blue_star.svg" alt="">
+                                <p class="reviews-appraisal">5,0</p></div>   
+                            </div>
+                            <div class="reviews-content">
+                              <p class="reviews-title">Достаточно хорошая компания</p>
+                              <p class="reviews">Попадал трижды в ДТП , застрахован в Ренессанс через онлайн,дважды заплатили даже больше чем нужно,один раз попросили подписать соглашение ,я не зная смысл бумажки подписал и вместо 80 000 р,забрал 55 000р , но как говориться на ошибках учатся , осмотр и оценка очень быстрая,выплата как положенно по закону,на максимальный 20 дней всегда приходила,глупых вопросов никто никогда не задавал,очередей как таковых не было, очень хорошая горячия линния + удобный чат Ватсаппе,чтобы не звонить и не ждать по 10 минут,написал и тебе тут же ответили</p>
+                              <p class="author">Владислав Пукивеч, Санкт-Петербург</p>
+                            </div>
+                          </div>
+                          <div class="reviews-content-card">
+                            <div class="reviews-header-wrapper">
+                              <div class="reviews-header-logo">
+                                <img src="/assets/img/offices/tinkek.svg" alt="tinkoff">
+                                
+                              </div>
+                              <div class="reviews-raiting"><img class="reviews-star" src="/assets/img/offices/blue_star.svg" alt="">
+                                <p class="reviews-appraisal">5,0</p></div>   
+                            </div>
+                            <div class="reviews-content">
+                              <p class="reviews-title">По любым вопросам !!!</p>
+                              <p class="reviews">Пользуюсь услугами Астро- волга уже 3-й год у меня две машины оформление очень простое и понятное , в начале 2020 года продлил страховку, а в марте Жена получила права обратился к специалисту с прозьбой вписать в существующую страховку ЖЕНУ , ДОПЛАТИЛ ВОПРОС РЕШИЛСЯ В ТЕЧЕНИИ 20 МИНУТ !!!!</p>
+                              <p class="author">Владислав Пукивеч, Санкт-Петербург</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="kek-wrapper">
+                          <div class="reviews-content-card">
+                            <div class="reviews-header-wrapper">
+                              <div class="reviews-header-logo">
+                                <img src="/assets/img/offices/tinkek.svg" alt="tinkoff">
+                                
+                              </div>
+                              <div class="reviews-raiting"><img class="reviews-star" src="/assets/img/offices/blue_star.svg" alt="">
+                                <p class="reviews-appraisal">4,5</p></div>   
+                            </div>
+                            <div class="reviews-content">
+                              <p class="reviews-title">По двум случаям все отремонтировали быстро </p>
+                              <p class="reviews">У меня с Ренессансом было 2 страховых случая и результатами урегулирования обоих я довольна. Первый был еще в конце февраля, когда я сама по невниматеьности повредила бампер на парковке возле торгового центра, а второй раз мне мне камешек прилетел от другого автомобиля. Случаи были не самые значительные, но страховая их рассмотрение не откладывала и оба раза мне все быстро отремонтировали. Большое вам спасибо!</p>
+                              <p class="author">Марина, Москва</p>
+                            </div>
+                          </div>
+                          <div class="reviews-content-card">
+                            <div class="reviews-header-wrapper">
+                              <div class="reviews-header-logo">
+                                <img src="/assets/img/offices/tinkek.svg" alt="tinkoff">
+                                
+                              </div>
+                              <div class="reviews-raiting"><img class="reviews-star" src="/assets/img/offices/blue_star.svg" alt="">
+                                <p class="reviews-appraisal">5,0</p></div>   
+                            </div>
+                            <div class="reviews-content">
+                              <p class="reviews-title">Оформили ОСАГО очень быстро </p>
+                              <p class="reviews">Здравствуйте выражаю благодарность работникам Страховой компании Югория города Нягань! Очень быстро оформили полис ОСАГО онлайн!!! Купил в Перми новый автомобиль и выехал с салона уже с полисом !!! Спасибо большое за столь быстрое оформление!!!</p>
+                              <p class="author">Марина, Москва</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="more-btn"><img src="/assets/img/offices/more_btn.svg" alt="..."></button>
+                    </div> 
+                  </div>
+                </div>
+          </section>
+          <footer id="footer">
+            <div class="container">
+              <div class="footer-content">
+                <a href="#" class="logo"
+                  ><img src="/assets/img/polis.svg" alt="polis" />
+                  <img src="/assets/img/plus.svg" alt="+" class="plus"
+                /></a>
+                <ul class="social">
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/facebook.svg" alt="f" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/twitter.svg" alt="t" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/telegram.svg" alt="f" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/vk.svg" alt="vk" />
+                    </a>
+                  </li>
+                  <li class="social-btn">
+                    <a href="#">
+                      <img src="/assets/img/footer/instagram.svg" alt="i" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="copyraite">
+                <p>© polis.plus – страховой маркетплейс</p>
+                <div class="copyraite-wrapper">
+                  <a href="#">Политика обработки персональных данных</a>
+                  <a href="#">Пользовательское соглашение</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+      </body>
+      
+</html>

@@ -1,0 +1,1112 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: local("GT Walsheim Pro"), url("/assets/fonts/GTWalsheimPro.otf") format("woff");
+}
+
+* {
+  font-family: "GT Walsheim Pro";
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo .plus {
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+#header {
+  height: 12vh;
+  border-bottom: 1px solid #d3dade;
+}
+
+#header .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .container .navigator .menu {
+  width: 338px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .container .navigator .menu .menu-item .menu-link {
+  text-decoration: none;
+  color: black;
+}
+
+#header .container .wrapper-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .container .wrapper-btn .search-btn {
+  width: 45px;
+  height: 45px;
+  background: #f2f4f5;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 30px;
+}
+
+#header .container .wrapper-btn .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .container .wrapper-btn .profile .user-name {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+#about-company, #offices, #reviews {
+  margin-top: 30px;
+}
+
+#about-company .container .title, #offices .container .title, #reviews .container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about-company .container .title .logotypes-tincoff, #offices .container .title .logotypes-tincoff, #reviews .container .title .logotypes-tincoff {
+  margin-top: 12px;
+}
+
+#about-company .container .title .insurance-company, #offices .container .title .insurance-company, #reviews .container .title .insurance-company {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+#about-company .container .content, #offices .container .content, #reviews .container .content {
+  width: 100%;
+}
+
+#about-company .container .content .content-menu, #offices .container .content .content-menu, #reviews .container .content .content-menu {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+#about-company .container .content .content-menu .content-menu-link .current-link, #offices .container .content .content-menu .content-menu-link .current-link, #reviews .container .content .content-menu .content-menu-link .current-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-company .container .content .content-menu .content-menu-link a, #offices .container .content .content-menu .content-menu-link a, #reviews .container .content .content-menu .content-menu-link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+#about-company .container .content .content-menu .content-menu-link-active, #offices .container .content .content-menu .content-menu-link-active, #reviews .container .content .content-menu .content-menu-link-active {
+  position: relative;
+}
+
+#about-company .container .content .content-menu .content-menu-link-active a, #offices .container .content .content-menu .content-menu-link-active a, #reviews .container .content .content-menu .content-menu-link-active a {
+  color: #4d289c;
+  text-decoration: none;
+}
+
+#about-company .container .content .content-menu .content-menu-link-active::after, #offices .container .content .content-menu .content-menu-link-active::after, #reviews .container .content .content-menu .content-menu-link-active::after {
+  content: '';
+  position: absolute;
+  left: calc(50% - 2.5px);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #4d289c;
+}
+
+#about-company .container .content .rating-wrapper, #offices .container .content .rating-wrapper, #reviews .container .content .rating-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-company .container .content .rating-wrapper .rating, #offices .container .content .rating-wrapper .rating, #reviews .container .content .rating-wrapper .rating {
+  width: 100%;
+  height: 210px;
+  margin: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-of-5-circle, #offices .container .content .rating-wrapper .rating .rating-of-5-circle, #reviews .container .content .rating-wrapper .rating .rating-of-5-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 208px;
+  height: 208px;
+  border-radius: 50%;
+  background: #F2F4F5;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-of-5-circle .appraisal, #offices .container .content .rating-wrapper .rating .rating-of-5-circle .appraisal, #reviews .container .content .rating-wrapper .rating .rating-of-5-circle .appraisal {
+  font-size: 56px;
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-of-5-circle .appraisal-of, #offices .container .content .rating-wrapper .rating .rating-of-5-circle .appraisal-of, #reviews .container .content .rating-wrapper .rating .rating-of-5-circle .appraisal-of {
+  font-size: 18px;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count, #offices .container .content .rating-wrapper .rating .rating-with-count, #reviews .container .content .rating-wrapper .rating .rating-with-count {
+  max-height: 210px;
+  height: 80%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar {
+  width: 70%;
+  border-radius: 8px;
+  background-color: #F2F4F5;
+  height: 8px;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded {
+  height: 100%;
+  border-radius: 8px;
+  background: #090C08;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded1, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded1, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded1 {
+  width: 52%;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded2, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded2, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded2 {
+  width: 31%;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded3, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded3, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded3 {
+  width: 14%;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded4, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded4, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded4 {
+  width: 0%;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded5, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded5, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .progress-bar .progress-bar-loaded5 {
+  width: 1.4%;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .counter, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .counter, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .counter {
+  font-size: 12px;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .stars-wrapper, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .stars-wrapper, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .stars-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 15%;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .rating-element .stars-wrapper .star, #offices .container .content .rating-wrapper .rating .rating-with-count .rating-element .stars-wrapper .star, #reviews .container .content .rating-wrapper .rating .rating-with-count .rating-element .stars-wrapper .star {
+  height: 13px;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .all-reviews, #offices .container .content .rating-wrapper .rating .rating-with-count .all-reviews, #reviews .container .content .rating-wrapper .rating .rating-with-count .all-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .all-reviews .all-reviews-text, #offices .container .content .rating-wrapper .rating .rating-with-count .all-reviews .all-reviews-text, #reviews .container .content .rating-wrapper .rating .rating-with-count .all-reviews .all-reviews-text {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+#about-company .container .content .rating-wrapper .rating .rating-with-count .all-reviews .counter, #offices .container .content .rating-wrapper .rating .rating-with-count .all-reviews .counter, #reviews .container .content .rating-wrapper .rating .rating-with-count .all-reviews .counter {
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+#about-company .container .content .rating-wrapper .left-reviews-card, #offices .container .content .rating-wrapper .left-reviews-card, #reviews .container .content .rating-wrapper .left-reviews-card {
+  max-width: 449px;
+  max-height: 209px;
+  width: 448px;
+  height: 208px;
+  background: #F2F4F5;
+  border-radius: 16px;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about-company .container .content .rating-wrapper .left-reviews-card .left-reviews-title, #offices .container .content .rating-wrapper .left-reviews-card .left-reviews-title, #reviews .container .content .rating-wrapper .left-reviews-card .left-reviews-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#about-company .container .content .rating-wrapper .left-reviews-card .left-reviews-disc, #offices .container .content .rating-wrapper .left-reviews-card .left-reviews-disc, #reviews .container .content .rating-wrapper .left-reviews-card .left-reviews-disc {
+  font-size: 18px;
+}
+
+#about-company .container .content .rating-wrapper .left-reviews-card .left-reviews-btn, #offices .container .content .rating-wrapper .left-reviews-card .left-reviews-btn, #reviews .container .content .rating-wrapper .left-reviews-card .left-reviews-btn {
+  width: 179px;
+  height: 48px;
+  background: #4D289C;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+#about-company .container .content .company-info, #offices .container .content .company-info, #reviews .container .content .company-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 140px;
+}
+
+#about-company .container .content .company-info .rating-wrapper, #offices .container .content .company-info .rating-wrapper, #reviews .container .content .company-info .rating-wrapper {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 58%;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-wrapper, #offices .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-wrapper, #reviews .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-wrapper .appraisal, #offices .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-wrapper .appraisal, #reviews .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-wrapper .appraisal {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-size: 44px;
+  color: #4d289c;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-stars, #offices .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-stars, #reviews .container .content .company-info .rating-wrapper .rating-of-5 .rating-of-5-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-ruaa, #offices .container .content .company-info .rating-wrapper .rating-ruaa, #reviews .container .content .company-info .rating-wrapper .rating-ruaa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-ruaa .appraisal, #offices .container .content .company-info .rating-wrapper .rating-ruaa .appraisal, #reviews .container .content .company-info .rating-wrapper .rating-ruaa .appraisal {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-size: 44px;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper, #offices .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper, #reviews .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 25px;
+  padding-bottom: 5px;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper p, #offices .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper p, #reviews .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper p {
+  font-size: 18px;
+}
+
+#about-company .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper .moree-btn, #offices .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper .moree-btn, #reviews .container .content .company-info .rating-wrapper .rating-ruaa .rating-ruaa-wrapper .moree-btn {
+  height: 18px;
+  margin-left: 5px;
+}
+
+#about-company .container .content .company-info .cards, #offices .container .content .company-info .cards, #reviews .container .content .company-info .cards {
+  color: white;
+  padding-top: 60px;
+}
+
+#about-company .container .content .company-info .cards .eosago, #offices .container .content .company-info .cards .eosago, #reviews .container .content .company-info .cards .eosago {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  width: 448px;
+  height: 296px;
+  padding: 20px;
+  background: url(/assets/img/eosago.png);
+}
+
+#about-company .container .content .company-info .cards .eosago .line, #offices .container .content .company-info .cards .eosago .line, #reviews .container .content .company-info .cards .eosago .line {
+  width: 16px;
+  height: 0px;
+  border-bottom: 2px solid #f2f4f5;
+  margin: 15px 0px;
+}
+
+#about-company .container .content .company-info .cards .eosago .disc, #offices .container .content .company-info .cards .eosago .disc, #reviews .container .content .company-info .cards .eosago .disc {
+  font-weight: 400;
+}
+
+#about-company .container .content .company-info .cards .kasko, #offices .container .content .company-info .cards .kasko, #reviews .container .content .company-info .cards .kasko {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  width: 448px;
+  height: 296px;
+  padding: 20px;
+  margin: 30px 0px;
+  background: url(/assets/img/bgKAsko.png);
+}
+
+#about-company .container .content .company-info .cards .kasko .line, #offices .container .content .company-info .cards .kasko .line, #reviews .container .content .company-info .cards .kasko .line {
+  width: 16px;
+  height: 0px;
+  border-bottom: 2px solid #f2f4f5;
+  margin: 15px 0px;
+}
+
+#about-company .container .content .company-info .cards .kasko .disc, #offices .container .content .company-info .cards .kasko .disc, #reviews .container .content .company-info .cards .kasko .disc {
+  font-weight: 400;
+}
+
+#about-company .container .content .company-info .cards .vzr, #offices .container .content .company-info .cards .vzr, #reviews .container .content .company-info .cards .vzr {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  width: 448px;
+  height: 296px;
+  padding: 20px;
+  background: url(/assets/img/bgVZR.png);
+}
+
+#about-company .container .content .company-info .cards .vzr .line, #offices .container .content .company-info .cards .vzr .line, #reviews .container .content .company-info .cards .vzr .line {
+  width: 16px;
+  height: 0px;
+  border-bottom: 2px solid #f2f4f5;
+  margin: 15px 0px;
+}
+
+#about-company .container .content .company-info .cards .vzr .disc, #offices .container .content .company-info .cards .vzr .disc, #reviews .container .content .company-info .cards .vzr .disc {
+  font-weight: 400;
+}
+
+#about-company .container .content .company-info .company-main-info, #offices .container .content .company-info .company-main-info, #reviews .container .content .company-info .company-main-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#about-company .container .content .company-info .company-main-info .year-foundation, #offices .container .content .company-info .company-main-info .year-foundation, #reviews .container .content .company-info .company-main-info .year-foundation {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-size: 44px;
+  height: 60px;
+}
+
+#about-company .container .content .company-info .company-main-info .year-foundation-disc, #offices .container .content .company-info .company-main-info .year-foundation-disc, #reviews .container .content .company-info .company-main-info .year-foundation-disc {
+  font-size: 18px;
+}
+
+#about-company .container .content .company-disc, #offices .container .content .company-disc, #reviews .container .content .company-disc {
+  width: 55%;
+  margin-top: 50px;
+}
+
+#about-company .container .content .company-disc .company-disc-section, #offices .container .content .company-disc .company-disc-section, #reviews .container .content .company-disc .company-disc-section {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f4f5;
+}
+
+#about-company .container .content .company-disc .company-disc-section p, #offices .container .content .company-disc .company-disc-section p, #reviews .container .content .company-disc .company-disc-section p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#about-company .container .content .company-disc .company-disc-section .info, #offices .container .content .company-disc .company-disc-section .info, #reviews .container .content .company-disc .company-disc-section .info {
+  margin: 15px 0px;
+  font-weight: 400;
+  font-weight: 18px;
+}
+
+#about-company .container .content .company-disc .company-disc-section:first-child, #offices .container .content .company-disc .company-disc-section:first-child, #reviews .container .content .company-disc .company-disc-section:first-child {
+  padding-top: 0px !important;
+}
+
+#about-company .container .content .company-disc .company-disc-section .types-services .info, #offices .container .content .company-disc .company-disc-section .types-services .info, #reviews .container .content .company-disc .company-disc-section .types-services .info {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+#about-company .container .content .reviews-wrapper, #offices .container .content .reviews-wrapper, #reviews .container .content .reviews-wrapper {
+  margin-bottom: 80px;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter, #offices .container .content .reviews-wrapper .rewievs-filter, #reviews .container .content .reviews-wrapper .rewievs-filter {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-btn, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-btn, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  background: #F2F4F5;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding-top: 5px;
+  padding: 8px 12px 8px 24px;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-btn p, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-btn p, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-btn p {
+  margin-right: 5px;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content a, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content a, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content a:hover, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content a:hover, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown:hover .dropdown-content, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown:hover .dropdown-content, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .btn:hover, #about-company .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown:hover .btn, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .btn:hover, #offices .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown:hover .btn, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .btn:hover, #reviews .container .content .reviews-wrapper .rewievs-filter .reviews-filter-btn .dropdown:hover .btn {
+  background-color: #0b7dda;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper, #offices .container .content .reviews-wrapper .reviews-content-wrapper, #reviews .container .content .reviews-wrapper .reviews-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card {
+  padding: 32px;
+  border: 1px solid #D3DADE;
+  border-radius: 20px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card:last-child, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card:last-child, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card:last-child {
+  margin-top: 40px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-header-logo, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-header-logo, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 73px;
+  width: 197px;
+  background: #F2F4F5;
+  border-radius: 8px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-raiting, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-raiting, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-raiting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-raiting .reviews-star, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-raiting .reviews-star, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-header-wrapper .reviews-raiting .reviews-star {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 384px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content .reviews-title, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content .reviews-title, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content .reviews-title {
+  font-weight: 600;
+  font-size: 32px;
+  margin: 20px 0px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content .author, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content .author, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper .reviews-content-card .reviews-content .author {
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#about-company .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper:last-child, #offices .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper:last-child, #reviews .container .content .reviews-wrapper .reviews-content-wrapper .kek-wrapper:last-child {
+  margin-left: 40px;
+}
+
+#about-company .container .content .reviews-wrapper .more-btn, #offices .container .content .reviews-wrapper .more-btn, #reviews .container .content .reviews-wrapper .more-btn {
+  width: 80px;
+  height: 48px;
+  background: #F2F4F5;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  outline: none;
+}
+
+#footer {
+  background: #f2f4f5;
+  height: 20vh;
+  padding: 20px 0px;
+}
+
+#footer .container {
+  height: 100%;
+}
+
+#footer .container .footer-content {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #d3dade;
+  padding: 20px 0px;
+  padding-top: 10px !important;
+}
+
+#footer .container .footer-content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .container .footer-content .social .social-btn {
+  margin-left: 20px;
+}
+
+#footer .container .copyraite {
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .container .copyraite .copyraite-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .container .copyraite .copyraite-wrapper a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+#footer .container .copyraite .copyraite-wrapper a:first-child {
+  margin-right: 30px;
+}
+
+#map {
+  margin-bottom: 100px;
+}
+
+#map .kek {
+  border: red solid;
+}
+
+#map .cities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin-top: 80px;
+}
+
+#map .cities li .city {
+  height: 40px;
+  padding: 0px 24px;
+  background: #F2F4F5;
+  color: black;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+}
+
+#map .cities li .city p {
+  height: 30px;
+}
+
+#map .cities li .city-active {
+  background: black !important;
+  color: white !important;
+}
+
+#map #map-frame {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 698px;
+}
+
+#map #office-counter {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  color: #586A74;
+}
+
+#map .list-adresses .adress {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #090C08;
+  border-bottom: 1px solid #F2F4F5;
+}
+
+#map .list-adresses .adress .city-adress {
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#map .list-adresses .adress .hous-adress {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+#map .list-adresses .adress .build-route-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-decoration: none;
+  color: #090C08;
+}
+
+#map .show-more-offices {
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 24px;
+  padding-bottom: 5px;
+  background: #F2F4F5;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.baloon-title {
+  font-family: GT Walsheim Pro;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.baloon-street {
+  margin: 30px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.baloon-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #090C08;
+}
+
+.contact-info {
+  margin: 50px 0px !important;
+  width: 65%;
+}
+
+.contact-info .info {
+  height: 120px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #090C08;
+  border-bottom: 1px solid #F2F4F5;
+}
+
+.contact-info .info .contact-info-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact-info .info .contact-content {
+  font-size: 18px;
+  width: 60%;
+}
+
+.contact-info .info:last-child {
+  border-bottom: none;
+}
+
+.company-rating {
+  margin: 50px 0px !important;
+}
+
+.company-rating .company-rating-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company-rating .company-rating-wrapper:last-child {
+  margin-top: 80px;
+}
+
+.company-rating .company-rating-wrapper .rating-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.company-rating .company-rating-wrapper .rating-element:last-child {
+  margin-left: 160px;
+}
+
+.company-rating .company-rating-wrapper .rating-element .rating-element-wrapper {
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.company-rating .company-rating-wrapper .rating-element .rating-element-wrapper .rating-plays {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.company-rating .company-rating-wrapper .rating-element .rating-element-wrapper .wrapper-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+}
+
+.company-rating .company-rating-wrapper .rating-element .rating-element-wrapper .wrapper-text .rating-text {
+  font-weight: 600;
+  padding: 0px 15px;
+  border-left: 1px solid #090C08;
+}
+
+.company-rating .company-rating-wrapper .rating-element .rating-element-wrapper .wrapper-text .blue-text {
+  color: #4D289C;
+}
+
+.show-full-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 267px;
+  height: 48px;
+  background: #F2F4F5;
+  border-radius: 12px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.show-full-rating .strelo4ka {
+  margin-left: 5px;
+  padding-top: 5px;
+}
+/*# sourceMappingURL=style.css.map */
